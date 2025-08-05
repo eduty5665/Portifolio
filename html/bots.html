@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eduardo Lemes">
+        <meta name="description" content="Portfólio do desenvolvedor front-end Eduardo Lucas Lemes Januário">
+        <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+
+        <!-- box icons -->
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+        <!-- Link CSS externo -->
+        <link rel="stylesheet" href="../css/estilo.css">
+
+        <!-- Ícone title -->
+        <link rel="icon" href="../assets/letra.png">
+
+        <title> Eduardo Lucas Lemes Januário </title>
+    </head>
+    <body>
+
+        <!-- Cabeçalho -->
+        <header class="header">
+            <a href="../index.html" class="logo"><img src="../assets/preto.png" alt="</VS>" width="45px"></a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <h1><span>Bots para Discord</span></h1> 
+
+            <nav class="navbar social-media">
+                <a href="https://www.linkedin.com/in/eduardo-lemes-185715239/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://github.com/eduty5665/" target="_blank"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.instagram.com/_eduty/" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://encurtador.com.br/ozIW6" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+            </nav>
+        </header>
+
+       <!-- Section Sobre -->
+        <section class="home" id="home">
+            <div class="about-img">
+                <img src="../assets/bots.png" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading"> Introdução </h2>
+                <p> Os bots para Discord se tornaram ferramentas essenciais para comunidades online, automatizando tarefas, gerenciando servidores e interagindo com os usuários por meio de comandos personalizados. Dentro desse contexto, foram desenvolvidos dois bots com finalidades didáticas e funcionais: o <span><a href="https://github.com/eduty5665/GrivyBot" style="text-decoration: none;color: #00d2df;">GrivyBot</a></span> e o <span><a href="https://github.com/eduty5665/ReboBot" style="text-decoration: none;color: #00d2df;">ReboBot</a></span>.
+
+Ambos os projetos foram realizados como parte de atividades do curso técnico em <span><a href="https://etecsp.cps.sp.gov.br/desenvolvimento-de-sistemas/" style="text-decoration: none;color: #00d2df;">Desenvolvimento de Sistemas</a></span>, com o objetivo de aplicar conhecimentos em linguagem de programação, integração de APIs, estrutura modular, versionamento com Git e hospedagem de bots.</p>
+                <a href="https://discord.com/developers/docs/intro" class="btn"> DOCUMENTATION </a>
+            </div>
+        </section>
+
+        <!-- Section Tecnologias -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2 class="heading"> Tecnologias Utilizadas </h2>
+                <ul>
+                    <li><span>Linguagem principal:</span> Python</li>
+                    <li>Biblioteca: <span>discord.py</span></li>
+                    <li><span>Ambiente de desenvolvimento:</span> VSCode</li>
+                    <li>Versionamento: <span>Git + GitHub</span></li>
+                    <li><span>Execução:</span> Local via terminal ou com possibilidade futura de hospedagem em servidores cloud (Heroku, Railway, etc.)</li>
+                </ul>
+            </div>
+            <div class="about-img">
+                <img src="../assets/python.png" alt="">
+            </div>
+        </section>
+
+        <!-- Section Bots -->
+        <section class="services" id="services">
+            <h2 class="heading"> Meus Bots </h2>
+
+            <div class="services-container bot-container">
+                <div class="services-box bot-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3> Grivy Bot</h3>
+                    <p>O GrivyBot foi o primeiro bot desenvolvido no projeto. Seu foco principal está na moderação e na organização de servidores Discord, oferecendo funcionalidades essenciais para manter o ambiente virtual seguro e bem estruturado.</p>
+                    <p>Entre as principais funcionalidades do GrivyBot, destacam-se a criação automática de categorias e canais de texto ou voz, a limpeza em massa de mensagens utilizando o comando !clear, além da capacidade de banir ou expulsar usuários com comandos administrativos. O bot também é capaz de detectar e exibir mensagens deletadas, mostrando o conteúdo, o autor e o canal correspondente. Ele ainda envia mensagens de boas-vindas aos novos membros do servidor e realiza o registro de eventos no terminal, auxiliando na administração do sistema.</p>
+                    <p>Seu principal objetivo é automatizar tarefas administrativas de forma prática e eficiente, sendo uma solução ideal para servidores de pequeno e médio porte que buscam ferramentas básicas de gerenciamento.</p>
+                    <a href="https://github.com/eduty5665/GrivyBot" class="btn"> REPOSITÓRIO </a>
+                </div>
+
+                <div class="services-box bot-box">
+                    <i class="bx bxs-paint"></i>
+                    <h3> ReboBot </h3>
+                    <p> O ReboBot foi criado como uma evolução direta do GrivyBot, com foco na modularização do código e em finalidades educacionais. Ele visa tornar o processo de desenvolvimento mais organizado e escalável, ao mesmo tempo em que serve como um ambiente de aprendizado para estudantes interessados em programação com bots. </p>
+                    <p> Em termos de funcionalidades, o ReboBot reaproveita e reimplementa os comandos do GrivyBot, mas com uma estrutura de código mais limpa e eficiente. Um de seus maiores diferenciais está na modularização por meio de cogs, o que permite dividir os comandos em arquivos separados, facilitando tanto os testes quanto a manutenção e expansão do sistema. Além disso, o projeto foi pensado para reduzir a repetição de código e criar uma base sólida para novos comandos, como a futura implementação de um sistema de reprodução de músicas via nome ou URL. </p>
+                    <p> O objetivo central do ReboBot é ser um ambiente modular e didático, ideal para fins educacionais e experimentações. Mesmo assim, sua estrutura está preparada para evoluir e ser utilizada em ambientes de produção com funcionalidades mais robustas. </p>
+                    <div><a href="https://github.com/eduty5665/ReboBot" class="btn"> REPOSITÓRIO </a></div>
+                    
+                </div>
+        </section>
+
+        <!-- Section Comparação -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2 class="heading"> Comparação dos Bots </h2>
+                <table border="1" cellpadding="8" cellspacing="0">
+                    <thead>
+                        <tr>
+                        <th>Aspecto</th>
+                        <th>GrivyBot</th>
+                        <th>ReboBot</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td><strong>Objetivo</strong></td>
+                        <td>Bot de moderação funcional</td>
+                        <td>Estrutura modular e educacional</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Código</strong></td>
+                        <td>Estrutura simples, tudo em <code>main.py</code></td>
+                        <td>Separação por arquivos e <code>cogs</code></td>
+                        </tr>
+                        <tr>
+                        <td><strong>Expansão futura</strong></td>
+                        <td>Limitada, mais difícil de escalar</td>
+                        <td>Fácil de adicionar novos comandos</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Organização de pastas</strong></td>
+                        <td>Básica</td>
+                        <td>Otimizada e escalável</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Estilo de uso</strong></td>
+                        <td>Administradores e donos de servidor</td>
+                        <td>Estudantes e desenvolvedores iniciantes</td>
+                        </tr>
+                        <tr>
+                        <td><strong>Comentários e documentação</strong></td>
+                        <td>Básica</td>
+                        <td>Mais documentado e explicado</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+        <!-- Rodape -->
+        <footer style="background: #1f242d;" class="footer">
+            <div class="footer-text">
+                <p> Copyright &copy; 2023 by Eduardo | Todos os direitos reservado. </p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <script src="../js/script.js"></script>
+
+    </body>
+</html>
