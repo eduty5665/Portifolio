@@ -537,3 +537,135 @@ PAGINA FRONT-END
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
 }
+
+.bots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--second-bg-color);
+}
+
+.bots-content {
+
+}
+
+.bots-img img {
+    width: 25vw;
+    min-width: 180px;
+    max-width: 320px;
+    margin-left: 2rem; /* Espaço extra se quiser */
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+    .bots {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .bots-img img {
+        margin-left: 0;
+        margin-top: 2rem;
+        width: 50vw;
+        max-width: 320px;
+    }
+}
+
+.bots-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.bots-content li {
+    position: relative;
+    background: rgba(0, 210, 223, 0.07);
+    margin-bottom: 1.2rem;
+    padding: 1.2rem 1.2rem 1.2rem 3.5rem;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    flex: 1 1 350px;
+    max-width: 500px;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.bots-content li::before {
+    content: '✔'; /* Ou use outro símbolo: '•', '➤', etc */
+    position: absolute;
+    left: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bots-content li:hover {
+    background: rgba(0, 210, 223, 0.15);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .bots-content li {
+        font-size: 1.3rem;
+        padding: 1rem 1rem 1rem 2.8rem;
+    }
+    .bots-content li::before {
+        left: 0.7rem;
+        font-size: 1.2rem;
+    }
+}
+
+.bots-table {
+    margin: 3rem auto 0 auto;           /* Distância do título */
+    border-collapse: separate;           /* Permite espaçamento entre células */
+    border-spacing: 0;                   /* Remove espaçamento padrão */
+    background: var(--second-bg-color);
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    overflow: hidden;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+.bots-table th, .bots-table td {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #2c2f38;   /* Linha divisória entre linhas */
+    border-right: 1px solid #2c2f38;    /* Linha divisória entre colunas */
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.bots-table th {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #00b8c6;
+}
+
+.bots-table tr:last-child td {
+    border-bottom: none;                /* Remove borda da última linha */
+}
+
+.bots-table tr td:last-child,
+.bots-table tr th:last-child {
+    border-right: none;                 /* Remove borda da última coluna */
+}
+
+.bots-table tr:hover td {
+    background: rgba(0,210,223,0.08);   /* Efeito hover na linha */
+    transition: background 0.2s;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .bots-table, .bots-table th, .bots-table td {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
