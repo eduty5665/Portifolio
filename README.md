@@ -1,46 +1,67 @@
-# 📍 Portfólio
+<div align="center">
+  <h1>Ola! Eu sou o Eduardo Lemes</h1>
+</div>
 
-| 📖 | Bem-vindo ao meu portfólio de projetos! Aqui você encontrará uma seleção dos trabalhos que desenvolvi ao longo dos meus estudos e experiências práticas em desenvolvimento de software, tanto no **front-end** quanto no **back-end**. |
-| --- | --- |
+<div align="center">
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=eduty5665&theme=github_dark" alt="GitHub stats"/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=eduty5665&theme=github_dark" alt="Most used languages"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=eduty5665&theme=github_dark" alt="Most commit languages"/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=eduty5665&theme=github_dark&utcOffset=-3" alt="Productive time"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img alt="HTML" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img alt="CSS" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img alt="JavaScript" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img alt="TypeScript" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
+  <img alt="React" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img alt="Python" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img alt="PHP" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
+  <img alt="Node.js" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+  <img alt="Git" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://portifolio-eduty.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=white" target="_blank">
+  </a>
+  <a href="https://www.linkedin.com/in/eduardo-lemes-185715239/" target="_blank">
+    <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+  </a>
+  <a href="mailto:edulucas.le43@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+  </a>
+  <a href="https://www.instagram.com/_eduty/" target="_blank">
+    <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
+  </a>
+  <a href="https://www.facebook.com/eduardo.januario.5876/" target="_blank">
+    <img src="https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank">
+  </a>
+</div>
+
+<br>
+
+<h3 align="left">Sobre mim</h3>
+
+<ul>
+  <li>Hoje estudo <strong>Analise e Desenvolvimento de Sistemas</strong></li>
+  <li>Tenho foco em <strong>front-end</strong>, <strong>back-end</strong> e <strong>automacoes</strong></li>
+  <li>Desenvolvo projetos com <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Python</strong>, <strong>PHP</strong> e <strong>Node.js</strong></li>
+  <li>Tambem crio <strong>bots para Discord</strong> com comandos personalizados e automacoes</li>
+  <li>Estou sempre evoluindo meus projetos, aprendendo novas tecnologias e melhorando minha organizacao como desenvolvedor</li>
+</ul>
 
 ---
 
-## 💻 Sobre mim
-
-Olá! Meu nome é **Eduardo**, mas sou conhecido como **Eduty**.
-
-Sou um desenvolvedor com grande interesse por tecnologia, principalmente na área de desenvolvimento web. Tenho afinidade com **front-end**, mas também desenvolvo projetos no **back-end**, sempre buscando escrever código limpo e funcional. Sou curioso, comprometido e estou sempre aprendendo novas ferramentas e linguagens para melhorar meus projetos.
-
----
-
-## 🚀 Projetos
-
-Aqui estão alguns dos tipos de projetos que você encontrará neste portfólio:
-
-- ✅ **Front-end:**  
-  Interfaces web modernas com **HTML**, **CSS**, **JavaScript** e frameworks como **React**. Experimentos com responsividade, animações e boas práticas de UI/UX.
-
-- ✅ **Back-end:**  
-  APIs REST, integração com bancos de dados, autenticação e controle de usuários com **PHP**, **Node.js**, **Python** (Flask), entre outros.
-
-- ✅ **Bots para Discord:**  
-  Desenvolvimento de bots interativos utilizando a biblioteca **discord.py**, com comandos personalizados, gerenciamento de canais, moderação e automações.
-
-- ✅ **Projetos educacionais:**  
-  Trabalhos acadêmicos, desafios práticos, sistemas completos desenvolvidos em sala de aula e como TCC.
-
-Você pode visualizar os repositórios diretamente no meu perfil do GitHub.
-
----
-
-## 🔗 Links
-
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portifolio-eduty.netlify.app/)  
-[![linkedin](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-lemes-185715239/)  
-[![email](https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white)](mailto:edulucas.le43@gmail.com)  
-[![instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_eduty/)  
-[![facebook](https://img.shields.io/badge/-Facebook-%230077B5?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/eduardo.januario.5876/)
-
----
-
-🛠️ Feito com dedicação e aprendizado por [**eduty**](https://github.com/eduty5665) 🤍
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=eduty5665&bg_color=0d1117&color=89dceb&line=89dceb&point=c8f7ff&area=true&area_color=89dceb&hide_border=false&custom_title=Contribution%20Graph" alt="Grafico de contribuicoes"/>
+</div>
